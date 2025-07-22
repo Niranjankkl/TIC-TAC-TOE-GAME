@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.gamNam{
+    margin-top: 10px;
+    color: #273F4F;
+}
+body{
+    background-color: #FE7743;
+}
+.main{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.container{
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #273F4F;
+    margin-top: 20px;
+}
+.game{
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height:22vh;
+    width: 15vw;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 15vmin;
+    background-color: #D7D7D7;
+    color: #447D9B;
+}
+.rst{
+    height: 3rem;
+    width: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    background-color: #273F4F;
+    color: #D7D7D7;
+    margin-top: 20px;
+}
+.wiNam{
+    margin-top:15px;
+    color: #273F4F;
+}
+.clickme{
+    height: 3rem;
+    width: 20rem;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: none;
+    background-color: #273F4F;
+    border-radius: 3rem;
+    border: none;
+}
