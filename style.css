@@ -6,6 +6,8 @@
 .gamNam{
     margin-top: 10px;
     color: #273F4F;
+    animation: GameHead 1.5s ease-in-out infinite alternate;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
 }
 body{
     background-color: #FE7743;
@@ -35,6 +37,14 @@ body{
     gap: 1.5vmin;
     align-items: center;
     justify-content: center;
+}
+@keyframes GameHead{
+     0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
 }
 .box{
     height:22vh;
@@ -71,4 +81,33 @@ body{
     background-color: #273F4F;
     border-radius: 3rem;
     border: none;
+}
+
+/* making responsible */
+
+@media (max-width:500px){
+    .container{
+        width: 100%;
+        height:400px;
+        margin-top: 2rem;
+    }
+    .box{
+        height: 100px;
+        width: 31%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        height: 450px;
+        width: 100%;
+    }
+    .gamNam{
+        margin-top: 7rem;
+        font-size: 20px;
+    }
+    .rst{
+        margin-top: 3rem;
+    }
 }
